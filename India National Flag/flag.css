@@ -1,0 +1,54 @@
+.frame{
+    width: 350px;
+    height: 200px;
+    border: 3px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+.red{
+    width: 350px;
+    height:53px;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    left: 0%;
+    background-color: rgb(255, 175, 46);
+}
+.white{
+    width: 350px;
+    height: 53px;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    top:33%;
+    left: 0%;
+}
+.green{
+    width: 350px;
+    height: 53px;
+    border: 1px solid black;
+    padding: 10px;
+    position: absolute;
+    top: 66%;
+    left: 0%;
+    background-color: rgb(23, 194, 0);
+}
+.circle{
+    width: 70px;
+    height: 70px;
+    border: 2px solid blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 0%;
+    left: 40%;
+}
+img{
+    position: absolute;
+    top: -85%;
+    left: -95%;
+    width: 180px;
+    height: 180px;
+}
