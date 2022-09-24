@@ -1,0 +1,183 @@
+.carem-frame{
+	border: 10px solid brown;
+	width: 400px;
+	height: 400px;
+	border-radius: 10%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+/* Packet style */
+.packet{
+	width: 50px;
+	height: 50px;
+	background: black;
+	border-radius: 50%;
+	position: absolute;
+}
+.p1{
+	top: 0;
+	left: 0;
+}
+.p2{
+	top: 0;
+	right: 0;
+}
+.p3{
+	bottom: 0;
+	left: 0;
+}
+.p4{
+	bottom: 0;
+	right: 0;
+}
+/* End of Packet style */
+/* Bases */
+.base{
+	border: 3px solid rgb(0, 0, 0);
+	position: absolute;
+	transform: translate(-50,-50);
+	border-radius: 10%;
+}
+.top-base{
+	height: 6.5%;
+	width: 60%;
+	top: 40px;
+	left: 19%;
+}
+.right-base{
+	width: 6.5%;
+	height: 57%;
+	top: 85px;
+	right: 35px;
+}
+.bottom-base{
+	height: 6.5%;
+	width: 60%;
+	bottom: 40px;
+	left: 19%;
+}
+.left-base{
+	width: 6.5%;
+	height: 57%;
+	top: 85px;
+	left: 35px;
+}
+
+
+.red-circle{
+	height: 28px;
+	width: 28px;
+	background: rgb(255, 0, 0);
+	position: absolute;
+	border-radius: 50%;
+	margin: 2px;
+}
+.c1{
+	top: -11%;
+	left: -5%;
+}
+.c2{
+	top: -11%;
+	right: -5%;
+}
+.c3{
+	top: -5%;
+	right: -10%;
+}
+.c4{
+	bottom: -5%;
+	right: -10%;
+}
+.c5{
+	top: -11%;
+	left: -5%;
+}
+.c6{
+	top: -11%;
+	right: -5%;
+}
+.c7{
+	top: -5%;
+	left: -10%;
+}
+.c8{
+	bottom: -5%;
+	left: -10%;
+}
+
+
+
+
+.outline{
+	height: 28px;
+	width: 28px;
+	border: 2px solid black;
+	position: absolute;
+	border-radius: 50%;
+}
+.outline1{
+	top: -11%;
+	left: -5%;
+
+}
+.outline2{
+	top: -11%;
+	right: -5%;
+}
+.outline3{
+	top: -5%;
+	right: -10%;
+
+}
+.outline4{
+	bottom: -5%;
+	right: -10%;
+}
+.outline5{
+	top: -11%;
+	left: -5%;
+}
+.outline6{
+	top: -11%;
+	right: -5%;
+}
+.outline7{
+	top: -5%;
+	left: -10%;
+}
+.outline8{
+	bottom: -5%;
+	left: -10%;
+}
+
+/* End of the Bases */
+
+
+.center-circle{
+	width: 150px;
+	height: 150px;
+	border: 2px solid black;
+	border-radius: 50%;
+	position: absolute	;
+	top: 30%;
+	left: 30%;
+}
+.cc1{
+	width: 140px;
+	height: 140px;
+	border: 2px solid #000000;
+	border-radius: 50%;
+	position: absolute	;
+	top: 2%;
+	left: 2%;
+}
+
+.cc1 img{
+	width: 200px;
+	height: 150px;
+	position: absolute	;
+	top: -50px;
+	left: -30px;
+}
